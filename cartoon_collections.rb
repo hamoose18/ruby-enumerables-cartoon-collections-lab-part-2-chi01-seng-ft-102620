@@ -31,7 +31,8 @@ def find_valid_calls(planeteer_calls)
   first = nil 
   planeteer_calls.map do |element|
     if valid_calls.any? element
-      first = 
+      first = element
+      
       
     
   end
