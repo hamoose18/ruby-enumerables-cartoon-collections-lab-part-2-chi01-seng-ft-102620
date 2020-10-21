@@ -17,7 +17,8 @@ end
   # Return the boolean result of this check
   
 def long_planeteer_calls(planeteer_calls)
- planeteer_calls.each do |string|
+  result = false 
+ planeteer_calls.each do |element|
    
    
 end
