@@ -28,8 +28,10 @@ end
   # Return the first valid call found, or return nil if no valid calls are found
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
+  first = nil 
   planeteer_calls.map do |element|
     if valid_calls.any? element
+      first = 
       
     
   end
