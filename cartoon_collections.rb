@@ -20,7 +20,8 @@ def long_planeteer_calls(planeteer_calls)
   result = false 
  planeteer_calls.each do |element|
    result = true if element.length > 4
-   
+ end
+ result 
 end
 
 def find_valid_calls(planeteer_calls)
